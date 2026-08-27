@@ -35,6 +35,7 @@ A distributed, partitioned, append-only commit-log system built from scratch in 
 
 ## Directory Structure
 
+```text
 build-your-own-kafka/
 ├── data/                                # Local broker segment directories (ignored by git)
 ├── src/
@@ -56,6 +57,7 @@ build-your-own-kafka/
 │   │                       └── SimpleKafkaConsumer.java
 │   └── test/
 └── pom.xml
+```
 
 ---
 
